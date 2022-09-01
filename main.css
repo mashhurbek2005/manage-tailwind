@@ -789,7 +789,7 @@ video {
 }
 
 body {
-  background-image: url("../images/hero-bg.svg"), url("../images/hero-bg.svg");
+  background-image: url("./images/hero-bg.svg"), url("../images/hero-bg.svg");
   background-repeat: no-repeat;
   background-size: 444px 742px, 300px 600px;
   background-position: calc(50% + 96px) -260px, calc(50% + 210px) 350px;
@@ -1083,15 +1083,15 @@ img {
   content: "";
   width: 72px;
   height: 72px;
-  background-image: url("../images/alibravo.jpg");
+  background-image: url("./images/alibravo.jpg");
 }
 
 .said-item:nth-child(1)::before {
-  background-image: url("../images/anoshali.jpg");
+  background-image: url("./images/anoshali.jpg");
 }
 
 .said-item:nth-child(3)::before {
-  background-image: url("../images/richard.jpg");
+  background-image: url("./images/richard.jpg");
 }
 
 .said-heading {
@@ -1165,7 +1165,7 @@ img {
 
 .team {
   padding: 91px 0;
-  background-image: url("../images/team-bg.svg");
+  background-image: url("./images/team-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
